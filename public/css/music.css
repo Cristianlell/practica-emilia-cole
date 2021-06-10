@@ -1,0 +1,112 @@
+.music{
+    font-family: 'Raleway', sans-serif;
+}
+/* ===== HEADER ====== */
+.music header{
+    background-image: url('/images/emilia-music-top.jpg');
+    padding: 30px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* ======= NAV ========= */
+.music .nav{
+    text-align: right;
+    padding: 20px 10px;
+    margin-top: 35px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.music .nav li{
+    display: inline-block;
+    border-left: 1px solid black;
+    width: 80px;
+    text-align: center;
+}
+
+.music .nav li:last-child{
+    border-right: 1px solid black;
+}
+.music a{
+    color: black;
+    text-transform: none;
+}
+
+
+/* ===== REDES SOCIALES ===== */
+
+
+.music .nav-icon{
+    text-align: right;
+    margin: 10px 10px 0 0;
+}
+
+
+
+/* ==== TITULOS Y PARRAFOS ==== */
+
+.music h1{
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+
+/* ==== LINKS DIRECTOS ==== */
+
+.music .direct-links{
+    font-weight: 100;
+    margin: 40px 0px 10px 5px;
+}
+
+.music .links-album{
+    margin: 20px 0 50px 40px;
+    list-style: none;
+}
+
+.music .links-album li a{
+    color: rgb(129, 129, 129);
+    
+}
+/* ===== GO TOP ===== */
+.music .go-top{
+    font-size: 14px;
+    color: gray;
+    display: block;
+    margin: 20px 0 60px 5px;
+
+}
+/* ======= ALBUMS ========= */
+
+.music h2{ 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.music #album ol {
+    margin: 15px;
+    font-size: 14px;
+    list-style:decimal-leading-zero;
+    list-style-position: inside;
+    line-height: 35px;
+    
+}
+
+
+/* ===== ORGANIC ====== */
+
+.music #organic p, .music #street p{
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.music article section{
+     margin: 10px 0 20px 5px; 
+    
+}
+
+/* ==== VIDEOS ==== */
+
+.music article {
+    margin-left: 5px;
+}

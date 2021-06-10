@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&family=Work+Sans&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body header .nav li a:hover{
+    color: rgb(241, 206, 142);
+}
+
+.fa-twitter:hover{
+    color: mediumaquamarine;
+}
+.fa-facebook-square:hover{
+    color: #3b5998;
+}
+
+.fa-spotify:hover{
+    color:#81b71a;
+}
+.fa-apple:hover{
+    color: #666662;
+}
+.fa-amazon:hover{
+    color: #e47911;
+}
+.fa-instagram-square:hover{
+    color: #DD2A7B;
+}

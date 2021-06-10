@@ -1,0 +1,71 @@
+.about{
+    background-image: url('/images/emilia-about.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    background-size: contain;
+   
+}
+
+
+/* ======= NAV ========= */
+.about .nav{
+    text-align: right;
+    padding: 20px 10px;
+    margin-top: 35px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.about  li{
+    display: inline-block;
+    border-left: 1px solid black;
+    width: 80px;
+    text-align: center;
+}
+
+.about li:last-child{
+    border-right: 1px solid black;
+}
+.about a{
+    color: black;
+    text-transform: none;
+}
+
+
+/* ===== REDES SOCIALES ===== */
+
+
+.about .nav-icon{
+    text-align: right;
+    margin: 10px 10px 0 0;
+}
+
+/* ===== TITULOS ==== */
+
+.about h1{
+    margin-left: 20px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    margin-top: 70px;
+    font-size: 70px;
+}
+
+.about h4 , .about p{
+    color: #40A08F ;
+    font-family: 'Raleway', sans-serif;
+}
+
+.about h4 {
+    font-weight: 400;
+    font-size: 20px;
+    font-size: 26px;
+}
+.about p {
+    padding-top: 20px;
+    font-weight: 400;
+
+}
+
+.about article{
+    margin-top: 40px;
+    margin-left: 50px;
+}
