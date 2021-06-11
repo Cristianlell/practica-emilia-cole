@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .music{
     font-family: 'Raleway', sans-serif;
 }
